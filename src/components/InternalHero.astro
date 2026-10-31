@@ -13,7 +13,8 @@ const breadcrumbLabel = breadcrumbTitle || eyebrow
   <div class="shell internal-hero__content">
     <h2 class="eyebrow">{eyebrow}</h2>
     <h1>{title}</h1>
-    <p class="internal-hero__description">{description}</p>
+        <p class="internal-hero__description">{description}</p>
+    <slot />
     <nav class="breadcrumbs" aria-label="Breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
       <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
         <a itemprop="item" href="/"><span itemprop="name">Ana Sayfa</span></a>
