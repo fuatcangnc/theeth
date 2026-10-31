@@ -12,6 +12,7 @@ const breadcrumbLabel = breadcrumbTitle || eyebrow
   <div class="internal-hero__wash"></div>
   <div class="shell internal-hero__content">
     <h2 class="eyebrow">{eyebrow}</h2>
+    <slot name="beforeTitle" />
     <h1>{title}</h1>
         <p class="internal-hero__description">{description}</p>
     <slot />
