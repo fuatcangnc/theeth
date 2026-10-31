@@ -1,51 +1,104 @@
 {
-  "industry": "mühendislik",
-  "automotive": true,
-  "heroEyebrow": "TSE 360 & TÜVTÜRK YETKİLİ ARAÇ PROJE OFİSİ",
-  "heroTitle": "Araç proje hizmetleri ve motosiklet çanta ruhsata işletme",
-  "heroDescription": "Yetkili makine mühendisliği kadromuzla araç projelerinizi ve motosiklet çanta tescillerinizi hızlı, eksiksiz ve mevzuata tam uyumlu biçimde yönetiyoruz.",
+  "industry": "diş hekimi",
+  "automotive": false,
+  "heroEyebrow": "ANKARA MODERN DİŞ HEKİMLİĞİ KLİNİĞİ",
+  "heroTitle": "Doğal Gülüşünüz İçin Yenilikçi ve Korkusuz Diş Tedavileri",
+  "heroDescription": "Ankara'da ferah klinik ortamı ve gelişmiş dijital teknolojilerle korkusuz, konforlu ve estetik diş hekimliği çözümleri sunuyoruz.",
   "highlights": [
-    "Araç Proje | TSE Onaylı",
-    "Motosiklet Çanta Ruhsata İşletme",
-    "TÜVTÜRK & Noter Tescil Desteği"
+    "Dijital Gülüş Tasarımı",
+    "Ağrısız Cerrahi Yaklaşım",
+    "Ferah Klinik Ortamı",
+    "Korkusuz Aile Tedavisi"
   ],
   "metrics": [
     {
-      "value": "12+ Yıl",
-      "label": "Mühendislik Deneyimi"
-    },
-    {
-      "value": "1.000+",
-      "label": "Tescilli Proje"
-    },
-    {
       "value": "%100",
-      "label": "Mevzuat Uyumu"
+      "label": "Hasta Memnuniyeti"
+    },
+    {
+      "value": "Dijital",
+      "label": "Teknoloji Odaklı"
+    },
+    {
+      "value": "Korkusuz",
+      "label": "Tedavi Yaklaşımı"
     }
   ],
-  "aboutTitle": "Araç projesi ve motosiklet çanta tescilinde iki ana uzmanlık",
-  "aboutText": "İhtiyacınız olan hizmet alanını seçin; mevzuata tam uygun teknik hesaplama, TSE 360 dijital dosya onayı ve noter tescil adımlarını sıfır hata güvencesiyle tamamlayalım.",
+  "aboutTitle": "Modern Teknoloji, Güvenli Gülüşler",
+  "aboutText": "theeth, Ankara'da hasta konforunu ve yenilikçi dijital diş hekimliğini buluşturan modern bir sağlık merkezidir. Alanında uzman hekim kadromuzla, korkusuz ve şeffaf bir tedavi süreci sunarak doğal gülüşünüzü yeniden kazandırıyoruz.",
   "categories": [
-    "Araç Projeleri",
-    "Dönüşüm",
-    "Söküm",
-    "Motosiklet",
-    "Belgelendirme"
+    "Estetik Diş Hekimliği",
+    "Cerrahi ve İmplant",
+    "Tedavi ve Koruma"
   ],
-  "services": [],
+  "services": [
+    {
+      "title": "Gülüş Tasarımı",
+      "shortTitle": "Gülüş Tasarımı",
+      "slug": "gulus-tasarimi",
+      "summary": "Yüz hatlarınıza ve beklentilerinize uygun estetik diş görünümünü dijital planlama ile kazandırıyoruz.",
+      "category": "Estetik Diş Hekimliği"
+    },
+    {
+      "title": "İmplant Tedavisi",
+      "shortTitle": "İmplant Tedavisi",
+      "slug": "implant-tedavisi",
+      "summary": "Eksik dişleri son teknoloji cerrahi yöntemler ve sağlam titanyum implantlarla kalıcı olarak tamamlıyoruz.",
+      "category": "Cerrahi ve İmplant"
+    },
+    {
+      "title": "Zirkonyum Kaplama",
+      "shortTitle": "Zirkonyum Kaplama",
+      "slug": "zirkonyum-kaplama",
+      "summary": "Yüksek ışık geçirgenliği ve dayanıklılık sunan zirkonyum kaplamalarla doğal bir estetik sağlıyoruz.",
+      "category": "Estetik Diş Hekimliği"
+    },
+    {
+      "title": "Diş Beyazlatma",
+      "shortTitle": "Diş Beyazlatma",
+      "slug": "dis-beyazlatma",
+      "summary": "Klinik ortamında güvenli ve hızlı yöntemlerle dişlerinizde gözle görülür beyazlık elde edin.",
+      "category": "Estetik Diş Hekimliği"
+    },
+    {
+      "title": "Çocuk Diş Hekimliği",
+      "shortTitle": "Çocuk Diş Hekimliği",
+      "slug": "cocuk-dis-hekimligi",
+      "summary": "Çocuklara özel pedodontik yaklaşımlarla korkusuz, eğlenceli ve koruyucu tedaviler yürütüyoruz.",
+      "category": "Tedavi ve Koruma"
+    },
+    {
+      "title": "Kanal ve Dolgu",
+      "shortTitle": "Kanal ve Dolgu",
+      "slug": "kanal-tedavisi-ve-dolgu",
+      "summary": "Hasarlı dişleri ağrısız mikroskobik yöntemlerle kurtarıp estetik kompozit dolgularla restore ediyoruz.",
+      "category": "Tedavi ve Koruma"
+    },
+    {
+      "title": "Şeffaf Plak Tedavisi",
+      "shortTitle": "Şeffaf Plak Tedavisi",
+      "slug": "seffaf-plak-tedavisi",
+      "summary": "Diş çapraşıklıklarını telsiz, konforlu ve dışarıdan fark edilmeyen şeffaf plaklarla düzeltiyoruz.",
+      "category": "Estetik Diş Hekimliği"
+    }
+  ],
   "faq": [
     {
-      "question": "Motosiklet çanta ruhsata nasıl işletilir?",
-      "answer": "Motosiklete monte edilen arka çanta veya taşıma kutusu için yetkili makine mühendisimiz tarafından TSE onaylı tadilat projesi çizilir. Ardından TSE Araç Kontrol Merkezi incelemesi ve TÜVTÜRK tespit muayenesi yapılarak noterden yeni ruhsat teslim alınır."
+      "question": "İmplant tedavisi ağrılı bir işlem midir?",
+      "answer": "Lokal anestezi altında uygulanan modern implant tedavilerinde işlem sırasında ağrı hissedilmez. Operasyon sonrası hekiminizin önereceği basit ağrı kesicilerle iyileşme süreci son derece konforlu geçer."
     },
     {
-      "question": "Araç projesi hangi durumlarda zorunludur?",
-      "answer": "Karavan dönüşümü, motor değişimi, çeki demiri montajı, koltuk sökümü veya ilavesi, LPG sökümü ve engelli aparatı gibi aracın fabrika çıkış özelliklerini değiştiren tüm işlemlerde yasal olarak araç projesi zorunludur."
+      "question": "Gülüş tasarımı ne kadar sürer?",
+      "answer": "Dijital ölçü ve planlama ilk seansta gerçekleştirilir. Uygulanacak kaplama veya estetik müdahalelere göre gülüş tasarımınız ortalama birkaç seans içinde tamamlanır."
     },
     {
-      "question": "TSE onay ve ruhsat süreci ne kadar sürer?",
-      "answer": "Teknik evraklarınız ve montaj faturanız hazır olduğunda proje çizimi ve TSE 360 sistemine dosya yükleme işlemi aynı gün içinde tamamlanır. Randevu sonrasında muayene ve noter tesciliyle süreç hızla sonuçlandırılır."
+      "question": "Diş hekimi korkum var, nasıl yardımcı oluyorsunuz?",
+      "answer": "Ferah klinik ortamımız, şeffaf bilgilendirme anlayışımız ve gelişmiş lokal anestezi yöntemlerimizle dental fobi sorununu ortadan kaldırıyoruz. Tedavi boyunca her adım sizin kontrolünüzde ve konforunuz ön planda tutularak ilerler."
+    },
+    {
+      "question": "İlk muayenede hangi işlemler yapılıyor?",
+      "answer": "İlk randevuda kapsamlı ağız içi kontrol ve dijital görüntülemeler yapılır. Ağız yapınıza en uygun tedavi alternatifleri belirlenerek size özel planlama oluşturulur."
     }
   ],
-  "ctaLabel": "Teklif Al"
+  "ctaLabel": "WhatsApp ile İletişime Geçin"
 }

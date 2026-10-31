@@ -3,7 +3,8 @@
 	"sites": [
 		{
 			"key": "root",
-			"name": "Yeni Site",
+			"name": "theeth",
+			"url": "https://app.wuppycms.com/preview/fuatcangnc-theeth-1fb8d/",
 			"media": "public",
 			"publishing": "review",
 			"collections": ["posts", "pages"]

@@ -40,7 +40,7 @@ const INDEXNOW_KEY = process.env.INDEXNOW_KEY;
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://example.com",
+  site: "https://fuatcangnc-theeth-1fb8d.sites.wuppycms.com",
   output: "static",
   build: {
     inlineStylesheets: "always",
