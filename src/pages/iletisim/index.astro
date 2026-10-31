@@ -13,7 +13,14 @@ const mapHref = 'https://maps.google.com/maps?q=Kara%C5%9F%20Ara%C3%A7%20Proje'
 
 <Layout title={`${pageContent?.title ?? 'İletişim'} | Yeni Site`} description={pageContent?.description ?? 'Yeni Site araç proje, TSE onay ve ruhsata işletme iletişim bilgileri.'}>
   <main>
-        <InternalHero eyebrow={pageContent?.eyebrow ?? 'İletişim ve teklif'} title="Projenizi birlikte netleştirelim." description={pageContent?.description ?? 'Araç bilgilerinizi ve yapmak istediğiniz değişikliği paylaşın. Size uygun proje kapsamını ve sonraki adımları kısa sürede anlatalım.'} image="/images/project-guidance.webp" />
+            <InternalHero eyebrow={pageContent?.eyebrow ?? 'İletişim ve teklif'} title="Projenizi birlikte netleştirelim." description={pageContent?.description ?? 'Araç bilgilerinizi ve yapmak istediğiniz değişikliği paylaşın. Size uygun proje kapsamını ve sonraki adımları kısa sürede anlatalım.'} image="/images/project-guidance.webp">
+      <div class="mt-6 flex flex-wrap items-center gap-3">
+        <a href={whatsappHref('Merhaba, araç projesi hakkında bilgi almak istiyorum.')} target="_blank" rel="noreferrer" class="inline-flex h-11 items-center gap-2.5 bg-[#25D366] hover:bg-[#1fb65a] px-5 text-xs font-black uppercase tracking-wider text-white shadow-sm transition-colors">
+          <svg class="size-4 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.53 1.839.814 2.796.814 3.18 0 5.766-2.587 5.767-5.766.001-3.18-2.585-5.766-5.767-5.766zm3.374 8.211c-.141.398-.716.732-1.002.779-.271.045-.589.07-.954-.047-.367-.117-.843-.275-1.447-.538-2.544-1.109-4.183-3.696-4.31-3.865-.126-.17-1.026-1.365-1.026-2.604 0-1.239.65-1.849.881-2.1.231-.252.504-.315.672-.315.168 0 .336.002.483.01.155.008.363-.059.567.432.21.505.714 1.744.777 1.871.063.126.105.274.021.442-.084.168-.126.273-.252.421-.126.147-.265.328-.378.441-.126.126-.258.263-.111.515.147.252.654 1.08 1.401 1.746.962.857 1.774 1.123 2.026 1.249.252.126.399.105.546-.063.147-.168.63-.736.798-.988.168-.252.336-.21.567-.126.231.084 1.47.693 1.722.819.252.126.42.189.483.294.063.105.063.609-.078 1.007z"/></svg>
+          <span>WhatsApp ile İletişime Geçin</span>
+        </a>
+      </div>
+    </InternalHero>
     <section class="bg-white py-10 md:py-14" id="form">
       <div class="shell max-w-6xl">
         <div class="grid gap-7 lg:grid-cols-[1fr_22rem] lg:items-start">
