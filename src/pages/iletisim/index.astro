@@ -39,10 +39,6 @@ const mapHref = 'https://maps.google.com/maps?q=Kara%C5%9F%20Ara%C3%A7%20Proje'
           <aside class="lg:sticky lg:top-28 flex flex-col gap-6 border border-neutral-700/60 bg-gradient-to-b from-[#2a2d32] via-[#1e2024] to-[#121315] p-6 text-white md:p-7 shadow-2xl" data-reveal>
                         <div class="flex flex-col items-start gap-1">
               <span class="grid size-12 -skew-x-12 place-items-center bg-primary text-white shadow-sm mb-2"><MapPin class="skew-x-12" size={21} /></span>
-              <a href="/" class="inline-flex items-center gap-2 border border-neutral-300 bg-white hover:bg-neutral-100 px-4 py-2 text-xs font-black uppercase tracking-wider text-neutral-900 shadow-sm transition-colors">
-                <Home size={14} />
-                <span>Ana Sayfaya Git</span>
-              </a>
               <small class="text-xs font-medium uppercase tracking-wider text-neutral-300">Ofis adresimiz</small>
               <a class="text-base font-bold italic transition hover:text-primary" href={mapHref} target="_blank" rel="noreferrer">{siteSettings.location}</a>
             </div>
@@ -55,10 +51,6 @@ const mapHref = 'https://maps.google.com/maps?q=Kara%C5%9F%20Ara%C3%A7%20Proje'
             <div class="flex flex-col items-start gap-1 border-t border-neutral-700/50 pt-5">
               <span class="grid size-12 -skew-x-12 place-items-center bg-primary text-white shadow-sm mb-2"><Clock3 class="skew-x-12" size={21} /></span>
               <small class="text-xs font-medium uppercase tracking-wider text-neutral-300">Çalışma saatleri</small>
-              <a href="/" class="inline-flex items-center gap-2 border border-neutral-300 bg-white hover:bg-neutral-100 px-4 py-2 text-xs font-black uppercase tracking-wider text-neutral-900 shadow-sm transition-colors">
-                <Home size={14} />
-                <span>Ana Sayfaya Git</span>
-              </a>
               <strong class="text-base font-bold italic text-white">{siteSettings.workHours}</strong>
               <span class="text-sm text-neutral-300 italic">Pazar: Kapalı</span>
             </div>
